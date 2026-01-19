@@ -1,170 +1,135 @@
-```markdown
 # Growth Strategies for Altermagnet Mn₃Ga for Spintronic Applications
 
-## Overview
+This repository contains the academic project **“Growth Strategies for Altermagnet Mn₃Ga for Spintronic Applications”**, which investigates the synthesis, phase evolution, and physical properties of Mn₃Ga as an altermagnetic material.  
+All information documented here is **strictly derived from the project report and presentation included in this repository**, with no external assumptions or additions.
 
-This repository documents a research project on the synthesis, phase control, and characterization of the altermagnetic material Mn₃Ga. The work focuses on preparing Mn₃Ga alloys using arc melting, followed by controlled thermal treatments to obtain cubic, tetragonal, and hexagonal phases. All descriptions, parameters, and results presented here are directly taken from the project report and presentation contained in this repository.
+---
 
-## Scientific Background
+## Project Overview
 
-Altermagnetism is a class of magnetic order characterized by zero net magnetization combined with momentum-dependent spin splitting arising from broken parity–time (PT) symmetry. Mn₃Ga is a binary Heusler alloy that exhibits multiple crystallographic phases, each with distinct magnetic ordering, making it a suitable model system for studying altermagnetism and its relevance to spintronic applications.
+Altermagnetism is a recently identified class of magnetic order characterized by **zero net magnetization combined with momentum-dependent spin splitting**, enabled by broken parity–time (PT) symmetry. Mn₃Ga, a binary Heusler alloy, exhibits multiple crystallographic phases with distinct magnetic behaviors, making it a suitable system for studying altermagnetic phenomena relevant to spintronic applications.
 
-## Objectives of the Study
+This project focuses on:
+- Synthesizing Mn₃Ga using arc-melting techniques  
+- Controlling phase formation via thermal annealing  
+- Characterizing structural, magnetic, and transport properties  
+- Classifying the altermagnetic nature of each phase
 
-The objectives of this project, as stated in the report, are:
-- To establish arc-melting protocols for synthesizing Mn₃Ga.
-- To study phase transformation pathways through controlled annealing.
-- To characterize structural, magnetic, and transport properties of different Mn₃Ga phases.
-- To classify the altermagnetic nature of each phase based on symmetry and magnetic behavior.
+---
 
-## Material System
+## Scientific Context
 
-- **Material:** Mn₃Ga (manganese–gallium binary alloy)  
-- **Composition:** 75 at.% Mn and 25 at.% Ga  
-- **Crystal structures studied:**  
-  - Cubic (disordered L1₂-type)  
-  - Tetragonal (D0₂₂)  
+Conventional magnetic materials are classified as ferromagnets or antiferromagnets. Altermagnets occupy an intermediate category, combining advantages of both while avoiding stray magnetic fields. In Mn₃Ga, different crystal structures lead to collinear and non-collinear magnetic configurations, enabling the study of strong altermagnetism without relying on spin–orbit coupling.
+
+---
+
+## Material System Studied
+
+- **Compound:** Mn₃Ga  
+- **Composition:** 75 at.% Mn, 25 at.% Ga  
+- **Crystallographic phases investigated:**
+  - Cubic (disordered L1₂-type)
+  - Tetragonal (D0₂₂)
   - Hexagonal (D0₁₉, β-phase)
 
-## Experimental Methodology
+Each phase exhibits distinct magnetic ordering, ranging from collinear antiferromagnetism to ferrimagnetism and non-collinear antiferromagnetism.
 
-### Materials and Stoichiometry
+---
 
-- High-purity elemental Mn (99.999 wt.%) and Ga (99.999 wt.%) were used.
-- Target stoichiometry corresponds to Mn₃Ga (75:25 at.%).
-- A small excess of Ga (2–3 wt.%) was used to compensate for evaporation during melting.
+## Experimental Approach
 
-### Synthesis Technique
+### Synthesis Strategy
 
-- **Method:** Arc melting under argon atmosphere.
-- **Key features:** Water-cooled copper hearth, tungsten electrode, high-vacuum chamber.
-- Samples were re-melted multiple times to ensure chemical homogeneity.
+Mn₃Ga alloys were synthesized using **arc melting under an inert argon atmosphere**. High-purity elemental manganese and gallium were weighed according to the target stoichiometry. Multiple re-melting cycles were performed to ensure chemical homogeneity. A small excess of gallium was used to compensate for evaporation losses during melting.
 
-![Arc-melting setup for Mn–Ga sample preparation under inert atmosphere. Adapted from Song et al., J. Appl. Phys. 131, 173903 (2022).](figures/synthesis/arc_melting_setup.png)
+An arc-melting furnace with a water-cooled copper hearth and tungsten electrode was employed under high-vacuum conditions.
 
-### Thermal Treatments
+---
 
-- **As-cast:** Cubic phase.
-- **350–450 °C annealing:** Tetragonal D0₂₂ phase.
-- **600–800 °C annealing:** Hexagonal D0₁₉ β-phase.
-- The transformation to the hexagonal phase is reported as irreversible.
+### Thermal Processing and Phase Control
 
-![Phase transformation pathways in Mn₃Ga as a function of annealing temperature and time. Adapted from Song et al., J. Appl. Phys. 131, 173903 (2022).](figures/synthesis/phase_transformation.png)
+Phase evolution was achieved through controlled post-synthesis annealing:
+
+- **As-cast condition:** Cubic phase  
+- **350–450 °C annealing:** Tetragonal D0₂₂ phase  
+- **600–800 °C annealing:** Hexagonal D0₁₉ β-phase  
+
+The transformation to the hexagonal phase is reported as irreversible under the conditions studied.
+
+---
 
 ## Characterization Techniques
 
-### Structural
+Structural characterization was carried out using **X-ray diffraction (XRD)** with Cu Kα radiation, supported by Rietveld refinement for lattice parameter determination. Electron microscopy techniques, including STEM and SAED, were used for phase verification.
 
-- **X-ray Diffraction (XRD):** Cu Kα radiation, 2θ range 20–80°, Rietveld refinement used for lattice parameters.
-- **Electron microscopy:** STEM with HAADF imaging and SAED for phase identification.
+Magnetic properties were measured using **MPMS and VSM systems**, covering a temperature range from 2 K to 800 K and magnetic fields up to 70 kOe. Differential scanning calorimetry (DSC) was used to identify phase transitions.
 
-![Crystal structures of Mn₃Ga: cubic, tetragonal, and hexagonal phases. Adapted from Song et al., J. Appl. Phys. 131, 173903 (2022).](figures/crystal_structures/mn3ga_phases.png)
+Transport measurements, including Hall resistivity and magnetoresistance, were conducted using a **Physical Property Measurement System (PPMS)**, particularly for the hexagonal phase.
 
-### Magnetic
+---
 
-- **Magnetometry:** MPMS (Quantum Design) and VSM (Lake Shore).
-- **Temperature range:** 2–800 K.
-- **Field range:** up to 70 kOe.
-- **DSC:** Used to identify magnetic and structural transition temperatures.
-
-### Transport
-
-- **PPMS measurements:** Hall resistivity, temperature-dependent resistivity, and magnetoresistance.
-- Transport measurements are reported for the hexagonal phase.
-
-## Key Results
-
-### Phase Formation
-
-- As-cast samples predominantly form the cubic phase.
-- Controlled annealing yields tetragonal or hexagonal phases depending on temperature.
+## Key Observations and Results
 
 ### Structural Properties
 
-- **Cubic phase:** Space group *Pm*3̄*m*, lattice parameter a = 3.7786 Å.
-- **Tetragonal phase:** Space group *I4/mmm*, a = 3.9098 Å, c = 7.1011 Å.
-- **Hexagonal β-phase:** Space group *P6₃/mmc*, a = 5.4084 Å, c = 4.3547 Å.
+- **Cubic phase:**  
+  Space group *Pm*3̄*m*, lattice parameter a = 3.7786 Å  
 
-![XRD patterns of Mn₃Ga phases. Adapted from Song et al., J. Appl. Phys. 131, 173903 (2022).](figures/xrd/xrd_patterns.png)
+- **Tetragonal phase:**  
+  Space group *I4/mmm*, lattice parameters a = 3.9098 Å, c = 7.1011 Å  
 
-### Magnetic Properties
+- **Hexagonal β-phase:**  
+  Space group *P6₃/mmc*, lattice parameters a = 5.4084 Å, c = 4.3547 Å  
 
-- **Cubic:** Collinear antiferromagnetic, Néel temperature ≈ 420 K.
-- **Tetragonal:** Ferrimagnetic, high perpendicular anisotropy, coercivity up to 21.4 kOe.
-- **Hexagonal β-phase:** Non-collinear antiferromagnetic with 120° in-plane spin ordering and Néel temperature ≈ 490 K.
+---
 
-![Temperature-dependent magnetization and hysteresis behavior of Mn₃Ga phases. Adapted from Song et al., J. Appl. Phys. 131, 173903 (2022).](figures/magnetic_properties/magnetization.png)
+### Magnetic Behavior
 
-### Altermagnetic Classification
+- **Cubic phase:** Collinear antiferromagnetic ordering with Néel temperature ≈ 420 K  
+- **Tetragonal phase:** Ferrimagnetic ordering with high perpendicular magnetic anisotropy and coercivity up to 21.4 kOe  
+- **Hexagonal β-phase:** Non-collinear antiferromagnetic ordering with 120° in-plane spin structure and Néel temperature ≈ 490 K  
 
-Based on symmetry and magnetic analysis reported in the project:
-- Cubic phase: S-type altermagnet.
-- Tetragonal phase: M-type altermagnet.
-- Hexagonal β-phase: M-type altermagnet.
-All three phases are classified as strong altermagnets.
+---
 
-## Figures and Schematics
+### Transport and Altermagnetic Signatures
 
-All figures included in this repository are either adapted from the literature cited in the report and presentation or generated as part of this project. Each figure file includes a caption indicating its source.
+The hexagonal β-phase exhibits:
+- Large anomalous Hall conductivity (~500 Ω⁻¹ cm⁻¹)
+- Anomalous Nernst effect
+- Topological Hall effect at low temperatures
 
-## Repository Structure
+Based on symmetry and magnetic analysis presented in the project:
+- Cubic phase is classified as an **S-type altermagnet**
+- Tetragonal and hexagonal β-phases are classified as **M-type altermagnets**
+- All phases are identified as **strong altermagnets**
 
-```
+---
 
-Altermagnets/
-│
-├── README.md
-│
-├── docs/
-│   ├── report/
-│   │   └── CP302_final_report.pdf
-│   │
-│   ├── presentation/
-│   │   └── CP302_ppt.pdf
-│   │
-│   └── references/
-│       ├── references.bib
-│       └── references.md
-│
-├── figures/
-│   ├── crystal_structures/
-│   ├── synthesis/
-│   ├── xrd/
-│   ├── magnetic_properties/
-│   └── transport/
-│
-├── data/
-│   ├── xrd/
-│   ├── magnetization/
-│   └── transport/
-│
-├── notes/
-│   └── experimental_log.md
-│
-├── LICENSE
-│
-└── .gitignore
+## Figures and Data
 
-```
+Figures related to crystal structures, synthesis setup, XRD patterns, magnetic measurements, and transport behavior are organized within the repository.  
+Each figure includes a caption specifying whether it is **adapted from cited literature** or **generated within this work**, in accordance with copyright requirements.
 
-## How to Use This Repository
+---
 
-- The full project report and presentation are available in the `docs/` directory.
-- Figures referenced in the report are organized by category under `figures/`.
-- Raw or processed datasets, where available, are stored in `data/`.
-- Experimental observations and procedural notes are recorded in `notes/experimental_log.md`.
-- Literature references are listed in `docs/references/` without including copyrighted full texts.
+## Using This Repository
+
+- The **complete project report** is available as a PDF in the documentation directory.
+- The **project presentation** provides a concise visual summary of the study.
+- Figures are grouped by experimental category for clarity.
+- References cited in the project are listed in both BibTeX and human-readable formats, without inclusion of copyrighted full texts.
+
+---
 
 ## References
 
-A complete list of references cited in the report and presentation is provided in:
-- `docs/references/references.md` (human-readable)
-- `docs/references/references.bib` (BibTeX format)
+All literature cited in this project is documented in `docs/references/references.md`.  
+Each entry includes full citation details and DOI or official journal links.  
+**Full-text articles are not included due to copyright restrictions.**
 
-Full texts of cited articles are not included due to copyright restrictions.
+---
 
 ## Acknowledgments
 
-This project was carried out in the Department of Physics, Indian Institute of Technology Ropar.  
-Academic supervision and guidance were acknowledged in the project presentation.
-```
+This project was conducted in the **Department of Physics, Indian Institute of Technology Ropar**.  
+Academic guidance and institutional support are acknowledged as stated in the project presentation.
