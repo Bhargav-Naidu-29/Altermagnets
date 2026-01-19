@@ -55,7 +55,7 @@ The objectives of this project are:
 Mn₃Ga alloys were synthesized using **arc melting under an inert argon atmosphere**. High-purity elemental manganese and gallium were weighed according to target stoichiometry, with a small excess of gallium added to compensate for evaporation losses during melting. Multiple re-melting cycles were performed to ensure chemical homogeneity.
 
 **Image placeholder:**  
-`figures/synthesis/arc_melting_setup.png`
+`figures/fig1.png`
 
 *Caption:*  
 Arc-melting setup used for Mn₃Ga sample preparation under inert atmosphere. Experimental photographs generated in this work; schematic adapted from Song et al., *J. Appl. Phys.* **131**, 173903 (2022).
@@ -72,7 +72,7 @@ Controlled annealing was employed to access different Mn₃Ga phases:
 The cubic-to-tetragonal transition occurs through atomic ordering, while the transformation to the hexagonal phase is reported as **irreversible**.
 
 **Image placeholder:**  
-`figures/synthesis/phase_transformation_pathway.png`
+`figures/phase_transformation_pathway.jpg`
 
 *Caption:*  
 Phase transformation pathways in Mn₃Ga as a function of annealing temperature and time. Adapted from Song et al., *J. Appl. Phys.* **131**, 173903 (2022).
@@ -87,7 +87,7 @@ Phase transformation pathways in Mn₃Ga as a function of annealing temperature 
 - STEM (HAADF) and SAED for phase identification  
 
 **Image placeholder:**  
-`figures/crystal_structures/mn3ga_phases.png`
+`figures/Mn3Ga_phases.png`
 
 *Caption:*  
 Crystal structures of Mn₃Ga: cubic, tetragonal, and hexagonal phases. Adapted from Song et al., *J. Appl. Phys.* **131**, 173903 (2022).
@@ -101,7 +101,7 @@ Crystal structures of Mn₃Ga: cubic, tetragonal, and hexagonal phases. Adapted 
 - DSC for identifying transition temperatures  
 
 **Image placeholder:**  
-`figures/magnetic_properties/magnetization_curves.png`
+`figures/magnetization_Mn3Ga.jpeg`
 
 *Caption:*  
 Temperature-dependent magnetization and magnetic hysteresis behavior of Mn₃Ga phases. Adapted from Song et al., *J. Appl. Phys.* **131**, 173903 (2022).
