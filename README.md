@@ -157,4 +157,3 @@ All references cited in this project are listed in:
 🙏 **Acknowledgments**
 
 This work was carried out in the **Department of Physics, IIT Ropar**, as part of the CP302 course.  
-The author gratefully acknowledges academic supervision and discussions as stated in the project presentation.
